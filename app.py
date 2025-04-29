@@ -41,7 +41,7 @@ G, center = load_graph(city_name, distance)
 st.success(f"Graphe chargé avec {len(G.nodes)} noeuds et {len(G.edges)} arêtes.")
 
 # Exemple de calcul de flux (simplifié)
-@st.cache_data(show_spinner=False)
+@st.cache_resource
 def compute_flows(G):
     degree = dict(G.degree())
     sorted_nodes = sorted(degree.items(), key=lambda x: x[1], reverse=True)
