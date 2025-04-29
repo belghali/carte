@@ -33,7 +33,7 @@ else:
 def load_graph(city, dist):
     center = ox.geocode(city)
     G = ox.graph_from_point(center, dist=dist, network_type='drive')
-   G = G.to_undirected()
+    G = G.to_undirected()
     return G, center
 
 G, center = load_graph(city_name, distance)
