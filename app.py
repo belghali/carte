@@ -11,8 +11,8 @@ st.set_page_config(page_title="Cartographie des flux pendulaires", layout="wide"
 st.title("Visualisation des flux domicile-travail")
 
 st.markdown("""
-Cette application vous permet de visualiser les flux domicile-travail sur un graphe routier OpenStreetMap.
-Choisissez une ville ou une zone géographique, et la carte vous montrera les principaux trajets et intersections.
+Ce travail entre dans le scope du projet I-Maroc. Cette application vous permet de visualiser les flux domicile-travail sur un graphe routier OpenStreetMap.
+Choisissez une ville ou une zone géographique, et la carte vous montrera les principaux trajets et intersections. Cette application est en cours de développement.
 """)
 
 # Choix du thème
