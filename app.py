@@ -8,7 +8,7 @@ from folium.plugins import MarkerCluster
 
 st.set_page_config(page_title="Cartographie des flux pendulaires", layout="wide")
 
-st.title("\ud83d\udcc8 Visualisation des flux domicile-travail")
+st.title("Visualisation des flux domicile-travail")
 
 st.markdown("""
 Cette application vous permet de visualiser les flux domicile-travail sur un graphe routier OpenStreetMap.
