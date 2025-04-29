@@ -19,7 +19,7 @@ Choisissez une ville ou une zone géographique, et la carte vous montrera les pr
 with st.sidebar:
     theme = st.radio("Choisir le thème :", ["Clair", "Sombre"])
     st.markdown("---")
-    city_name = st.text_input("Nom de la ville (ex: Paris, France)", value="Paris, France")
+    city_name = st.text_input("Nom de la ville (ex: Paris, France)", value="Marrakech")
     distance = st.slider("Rayon autour du centre (en mètres)", min_value=500, max_value=5000, value=1000, step=500)
     st.markdown("---")
     show_nodes = st.checkbox("Afficher les noeuds importants", value=True)
