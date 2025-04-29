@@ -1,0 +1,9 @@
+streamlit
+osmnx
+geopandas
+folium
+pandas
+numpy
+networkx
+matplotlib
+pandas-geojson
