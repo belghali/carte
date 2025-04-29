@@ -29,7 +29,7 @@ if theme == "Sombre":
 else:
     tiles = "OpenStreetMap"
 
-@st.cache_data(show_spinner=False)
+@st.cache_resource
 def load_graph(city, dist):
     center = ox.geocode(city)
     G = ox.graph_from_point(center, dist=dist, network_type='drive')
